@@ -1,0 +1,38 @@
+/* .paper {
+    height: 450;
+    width: 600;
+    padding: 2;
+    background-color: '#374151';
+    border-radius: '3vh';
+} */
+
+.content-box {
+    border: 2px solid#00fdd0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.Box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #00fdd0;
+    border-radius: 20px;
+}
+
+.Box-1 {
+    display: flex;
+    align-items: center;
+    border: 2px solid #00fdd0;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image {
+    /* border: 2px solid #00FDD0; */
+    padding: 15px;
+    border-right: 2px solid #00fdd0;
+}

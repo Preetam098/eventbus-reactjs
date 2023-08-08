@@ -1,0 +1,96 @@
+.text-start {
+    text-align: start;
+}
+
+#fullbox {
+    border: '2px solid #00fdd0';
+    color: 'black';
+    border-radius: '30px';
+    text-align: 'center';
+    background-color: '#0e131f'
+}
+
+.h4 {
+    color: #ff00ff;
+}
+
+p {
+    margin: 0px;
+}
+
+.text {
+    color: #808080;
+    font-weight: bolder;
+}
+
+.icon {
+    color: #1e56ff;
+}
+
+.red {
+    color: red;
+}
+
+.BookSeat {
+    background-color: #090d14;
+    text-align: start;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Bookseat-header {
+    border-left: 5px solid #00fdd0;
+    padding-left: 3%;
+}
+
+.book-seat {
+    color: #00ffd0;
+}
+
+#btn {
+    color: #fff;
+    border: 2px solid #fff;
+    border-style: dotted;
+    padding: 3px 32px 5px 34px;
+    margin-left: 2%;
+}
+
+.Seat-body {
+    padding: 3%;
+}
+
+#btn-2 {
+    margin: '5px';
+    margin-left: 2%;
+    color: white;
+    border: 2px solid #fff;
+    border-style: dotted;
+    /* padding: 3px 32px 5px 34px; */
+}
+
+#btn-3 {
+    color: black;
+    background-color: #00fdd0;
+    width: 90%;
+    height: 35%;
+    border-radius: 22px;
+    font-weight: bolder;
+}
+
+#text {
+    color: #fff;
+}
+
+.flexing {
+    display: flex;
+    color: #fff;
+}
+
+#CoustomRadio {
+    width: 152px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-style: dotted;
+    /* padding: 0px 6px 0px 5px; */
+    margin: 0px 2% 2%;
+}
