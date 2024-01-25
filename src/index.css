@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiContainer-root MuiContainer-maxWidthLg css-1rp5o23-MuiContainer-root{
+padding: 0 !important;
+}
+
+.css-1rp5o23-MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.css-1oqqzyl-MuiContainer-root{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+.css-5u70oy-MuiContainer-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.css-mhc70k-MuiGrid-root{
+  display: flex;
+  justify-content: center !important;
+  margin-left: 0px !important;
+}
+
+.css-19r6kue-MuiContainer-root{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.css-1mnuyxh {
+
+  margin-left: 0px !important;
+}
+
+.css-l1d491-MuiInputBase-root-MuiInput-root:before{
+  border-bottom: none !important;
+}
+
+input{
+    width: 80% !important;
+    border : 2px solid #00ffd0 !important;
+    border-radius: 20px !important;
+    padding: 8px !important;
+    border-bottom:none !important;
+
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  background: white !important;
+}
+
+.MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-adornedEnd css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  background: white !important
+  ;
+}

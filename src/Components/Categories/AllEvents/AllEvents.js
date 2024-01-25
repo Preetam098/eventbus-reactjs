@@ -419,7 +419,7 @@ const AllEvents = (props) => {
   return (
     <React.Fragment >
       <CssBaseline />
-      <Container maxWidth="xxl">
+      <Container maxWidth="xxl" >
         <Box sx={{
           m: 5,
           pt: 3,
@@ -442,7 +442,11 @@ const AllEvents = (props) => {
             }}>Book Your indivisual Bus Seats</h3>
           </div>
           <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={2}>
+            <Grid  sx={{
+  display: 'grid',
+  gridTemplateColumns: 'repeat(3, 1fr)',
+  gap: '2px', // Adjust the gap between columns if needed
+}} spacing={2}>
               {
                 cards && cards.map((card, index) => {
                   // {card : id'01' } 
@@ -451,7 +455,9 @@ const AllEvents = (props) => {
                       <Link to={'/ProductDetail'} state={card}>
                         <Grid  m={3}>
                           <Card sx={{
-                            maxWidth: 315, borderRadius: '15px', p: 0,
+
+                            maxWidth: 315, 
+                            borderRadius: '15px', p: 0,
                             backgroundColor: '#111827',
                             textAlign: 'start'
                           }}>
@@ -465,7 +471,7 @@ const AllEvents = (props) => {
                                 display: 'flex',
                                 justifyContent: 'space-between',
                               }}>
-                                <Typography gutterBottom variant="h6" component="div">
+                                <Typography gutterBottom variant="h6" sx={{ color: 'white', textDecoration: 'none' }} component="div">
                                   {card.tag}
                                 </Typography>
                                 <Typography gutterBottom variant="h6" component="div" color='#00ffd0'>

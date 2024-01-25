@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Container } from '@mui/material'
 
 
 
@@ -12,16 +13,19 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
   return (
     <>
+    <Container maxWidth="xl"> 
    <Box sx={{
-    height:'60vh',
+   
+    paddingY:'40px',
     display:'flex',
-    justifyContent:'start',
+    justifyContent:'space-around',
     alignItems:'center',
     textAlign:'start',
-    gap:14,
+    gap:4,
     borderTop: "2px solid #00f9cc",
     backgroundColor:'#111827',
-   }}>   
+   }}>  
+      
    <Box  sx={{
     
       color:'#00f9cc',
@@ -134,8 +138,10 @@ const Footer = () => {
          <a>Refunds</a></li>
    </ul>
   </Box>
+ 
   
    </Box>
+   </Container>
     </>
   )
 }

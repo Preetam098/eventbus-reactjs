@@ -23,34 +23,12 @@ import Thankyou from './Components/Categories/Thankyou/Index';
 import Checkout from './Components/Categories/Checkout/Checkout';
 import ProductDetail from './Components/Categories/ProductDetail/Index';
 
-
-
-// import { createRoot } from "react-dom/clie/nt"
-
-
-
 const App = () => {
-  // let navigate=useNavigate();
-  // useEffect(()=>{
-  //   if(localStorage.getItem('Email') && window.location.pathname === './Login'){
-  //     navigate('./Homepage')
-  //   }
-  // },[])
   return(
     <>
-    {/* <NavBar/> */}
-    {/* <Login/> */}
-   {/* <ForgotPassword/> */}
-    {/* <Homepage /> */}
-    {/* <Footer/> */}
-    {/* <NavBar/> */}
-    {/* <Slider/> */}
-
-
 {/*------------- Routing The Pages  ----------*/}
   
 <Router>
-
   <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/Signin' element={<Signin />} />

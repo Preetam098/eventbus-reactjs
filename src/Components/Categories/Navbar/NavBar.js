@@ -178,10 +178,10 @@ function ResponsiveAppBar() {
             return (
               <MenuItem key={index} onClick={handleCloseNavMenu}>
                 <Typography textAlign="center"  >
-                  <Link sx={{
+                  <p sx={{
                     color: 'white',
                     textDecoration: 'none'
-                  }} to={page.path}>{page.name}</Link>
+                  }} to={page.path}>{page.name}</p>
                 </Typography>
               </MenuItem>
             )
@@ -244,16 +244,19 @@ function ResponsiveAppBar() {
   return (
     <>
 
+<Container maxWidth="xl"  sx={{
+  mx:0
+             }}>
       <AppBar position="static" sx={{
         borderBottom: "1px solid #00f9cc",
         backgroundColor: '#111827',
         position: 'relative',
-
+        padding:'15px',
       }} >
 
-        <Container maxWidth="xl">
+      
           <Toolbar disableGutters>
-            <Container sx={{
+            <Container maxWidth='xl' sx={{
               pt: 2,
               pb: 2,
               display: 'flex',
@@ -266,15 +269,15 @@ function ResponsiveAppBar() {
                   src={BgImage} alt="BigCo Inc. logo" />
               </div>
 
-
-
               <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'center', color: 'black', } }}>
                 {
                   pages && pages.map((page, index) => {
                     return (
                       <MenuItem key={index} onClick={handleCloseNavMenu}>
-                        <Typography textAlign="center">
-                          <Link style={page === index ? { color: 'green' } : {}} to={page.path}>{page.name}</Link>
+                        <Typography textAlign="center" sx={{
+                          fontSize:'13px'
+                        }}>
+                          <Link style={page === index ? { color: 'green'  } : {}} to={page.path}>{page.name}</Link>
                         </Typography>
                       </MenuItem>
                     )
@@ -308,9 +311,10 @@ function ResponsiveAppBar() {
               </Box>
             </Container>
           </Toolbar>
-        </Container>
+      
       </AppBar>
-
+      </Container>
+   
     </>
   );
 }

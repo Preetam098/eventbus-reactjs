@@ -18,6 +18,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import ProductDetail from '../Components/Categories/ProductDetail/ProductDetail'
 import ForgotPassword from '../Components/ForgotPassword/Index'
 import Checkout from '../Components/Categories/Checkout/Index'
+import { Container } from '@mui/material'
 // import Thankyou from '../Components/Categories/Thankyou/Index'
 
 
@@ -43,9 +44,12 @@ const Index = () => {
 
     
       <>
-   <Box sx={{
-    backgroundColor:'#111827'
-   }}>
+    
+    
+   {/* <Box > */}
+       <Container maxWidth='xl' sx={{
+    backgroundColor:'#111827',
+   }} >
 
       {/* <Login/> */}
      {/* <Signup/> */}
@@ -66,8 +70,10 @@ const Index = () => {
       <ConcertTravel/>  
       {/* <Footer/>  */}
 
-
-   </Box>
+      </Container>
+   {/* </Box> */}
+     
+ 
 
 
 
